@@ -1,0 +1,20 @@
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+
+# Deployment
+.ftp-deploy-sync-state.json
+
+# Dependencies (if added later)
+node_modules/
+package-lock.json
