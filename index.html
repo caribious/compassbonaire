@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Compass Bonaire - Uw digitale kompas voor Bonaire">
+    <title>Compass Bonaire - Ontdek Bonaire</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">🧭 Compass Bonaire</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">Over Ons</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welkom op Bonaire</h1>
+            <p>Uw gids voor het ontdekken van het paradijs</p>
+            <button class="cta-button" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})">
+                Lees Meer
+            </button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Over Compass Bonaire</h2>
+            <p>
+                Compass Bonaire is uw ultieme gids voor het ontdekken van de schoonheid, cultuur en avonturen 
+                die het eiland Bonaire te bieden heeft. Van prachtige stranden tot onderwaterverkenningen, 
+                wij helpen u het beste uit uw bezoek te halen.
+            </p>
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>🏝️ Eilandparadijs</h3>
+                    <p>Ontdek de meest prachtige stranden en natuurgebieden</p>
+                </div>
+                <div class="about-card">
+                    <h3>🤿 Duiken</h3>
+                    <p>Wereldklasse duikervaring direct vanaf het strand</p>
+                </div>
+                <div class="about-card">
+                    <h3>🌍 Cultuur</h3>
+                    <p>Maak kennis met lokale tradities en gastronomie</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Onze Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🗺️</div>
+                    <h3>Reisgidsen</h3>
+                    <p>Gedetailleerde gidsen voor alle bezienswaardigheden op Bonaire</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏨</div>
+                    <h3>Accommodaties</h3>
+                    <p>Aanbevelingen voor hotels, resorts en vakantiehuizen</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🍽️</div>
+                    <h3>Restaurants</h3>
+                    <p>Ontdek de beste plaatsen om te eten op het eiland</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎭</div>
+                    <h3>Evenementen</h3>
+                    <p>Blijf op de hoogte van lokale festivals en activiteiten</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🚤</div>
+                    <h3>Watersport</h3>
+                    <p>Alles over duiken, snorkelen en andere wateractiviteiten</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📸</div>
+                    <h3>Fotografie</h3>
+                    <p>Inspiratie en tips voor het vastleggen van uw avontuur</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Neem Contact Op</h2>
+            <p>Heeft u vragen? Stuur ons een bericht!</p>
+            <form class="contact-form" onsubmit="handleSubmit(event)">
+                <div class="form-group">
+                    <input type="text" placeholder="Uw Naam" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Uw Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Uw Bericht" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="cta-button">Verstuur</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Compass Bonaire. Alle rechten voorbehouden.</p>
+            <p>🧭 Uw gids voor het eilandparadijs</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
